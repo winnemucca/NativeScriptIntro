@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		96567F4E03F84E27A9B5F044 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8914F87A7D724B2AA4BA5C62 /* Default-568h@2x.png */; };
+		C340D890209547738C6C58AC /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8829FE300D74D79A0876ED2 /* Default-667h@2x.png */; };
+		01A71D20B6B04C38AD43783D /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAA38DF8D694201AC3A942B /* Default-736h@3x.png */; };
+		38480C9389E64090864BC287 /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 467C0088080442B982BF05DE /* Default-Landscape-568h@2x.png */; };
+		A09BAD82D139499B9E2BF5B1 /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB6263F260A445C952BF9F9 /* Default-Landscape-667h@2x.png */; };
+		B0742CB9685C417692CA102D /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 5363221AF30D453595AD9AD9 /* Default-Landscape.png */; };
+		127C4B9033BE4C348FA0A9A2 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B23D4ADD364B098424F2F2 /* Default-Landscape@2x.png */; };
+		5A1E48F8C9974911890C1412 /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D18BE2747514DF7AC0CEE1B /* Default-Landscape@3x.png */; };
+		3C2F28785A9F49A0A449A442 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A9F84BA2234083B3011C52 /* Default-Portrait.png */; };
+		A2E9F1743DDC4447AB0D6404 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD9C494BE21F4B0685B3CA93 /* Default-Portrait@2x.png */; };
+		0702540086E34CC1A8F769BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EA34C9C204C60BF651205 /* Default.png */; };
+		A46A7F3665534F6891925AE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D0539F9496F436199E333F5 /* Default@2x.png */; };
+		14757BC82EF747D592707A8F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9930585F4E1047D6909DE119 /* Icon-Small-50.png */; };
+		974F9D3D320847CD8FCC9DD3 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB929371E94B6D98F813CE /* Icon-Small-50@2x.png */; };
+		148AFBCBB46F4A16B07319EF /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = CE32634AF04441789464025D /* Icon-Small.png */; };
+		CEA6960773BA48C4AD9D1CD4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D84B492CD8894E9E9A9A80B0 /* Icon-Small@2x.png */; };
+		4FB615850C0648C4B72A27C3 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1DCEEF094DD54131A335B244 /* build.xcconfig */; };
+		991751DEC681485DAFEA1663 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F6E19B169C42039AE2CD25 /* icon-40.png */; };
+		4EA88DD26B254DC3B1FD4C55 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F342D6ADCA4FEDB5D91BE3 /* icon-40@2x.png */; };
+		4516CC9435C840A9B05B78F2 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = DFFC7697D77049C6A6F20B78 /* icon-60.png */; };
+		EEB334F5ABA84A15A425A3A5 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AED820C8345629B15EF44 /* icon-60@2x.png */; };
+		F468682649F84F05AA450FF3 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAA1CC97E1E4F52ACF904A9 /* icon-72.png */; };
+		4D81F77BDE2F41FE98335A72 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB89CA032D7E4113BA7C486F /* icon-72@2x.png */; };
+		B239A79E95034899BF01CFA0 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 220358E74ED243BABABA4E0C /* icon-76.png */; };
+		F706AE7A4B3345DDBCEA7051 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582D33A690484719ABA91FE1 /* icon-76@2x.png */; };
+		E98150E849F3448F9FE1C182 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D5CD5E068427A9CAED994 /* icon.png */; };
+		EFCA20311905441FADCE22D2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769133BDA684E1B81F2A738 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		858B832E18CA111C00AB12DE /* rpsconf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpsconf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* rpsconf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rpsconf-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* rpsconf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rpsconf-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* rpsconf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpsconf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		F9B8C6A31ACEDEEB00547416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8914F87A7D724B2AA4BA5C62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "rpsconf/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		A8829FE300D74D79A0876ED2 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "rpsconf/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		0CAA38DF8D694201AC3A942B /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "rpsconf/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		467C0088080442B982BF05DE /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "rpsconf/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		2DB6263F260A445C952BF9F9 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "rpsconf/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		5363221AF30D453595AD9AD9 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "rpsconf/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		D2B23D4ADD364B098424F2F2 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "rpsconf/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		2D18BE2747514DF7AC0CEE1B /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "rpsconf/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		E1A9F84BA2234083B3011C52 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "rpsconf/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		BD9C494BE21F4B0685B3CA93 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "rpsconf/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		A26EA34C9C204C60BF651205 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "rpsconf/Resources/Default.png"; sourceTree = "<group>"; };
+		1D0539F9496F436199E333F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "rpsconf/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		9930585F4E1047D6909DE119 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "rpsconf/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		33CB929371E94B6D98F813CE /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "rpsconf/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		CE32634AF04441789464025D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "rpsconf/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		D84B492CD8894E9E9A9A80B0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "rpsconf/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1DCEEF094DD54131A335B244 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "rpsconf/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		24F6E19B169C42039AE2CD25 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "rpsconf/Resources/icon-40.png"; sourceTree = "<group>"; };
+		55F342D6ADCA4FEDB5D91BE3 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "rpsconf/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		DFFC7697D77049C6A6F20B78 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "rpsconf/Resources/icon-60.png"; sourceTree = "<group>"; };
+		4A8AED820C8345629B15EF44 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "rpsconf/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		FCAA1CC97E1E4F52ACF904A9 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "rpsconf/Resources/icon-72.png"; sourceTree = "<group>"; };
+		CB89CA032D7E4113BA7C486F /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "rpsconf/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		220358E74ED243BABABA4E0C /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "rpsconf/Resources/icon-76.png"; sourceTree = "<group>"; };
+		582D33A690484719ABA91FE1 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "rpsconf/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		849D5CD5E068427A9CAED994 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "rpsconf/Resources/icon.png"; sourceTree = "<group>"; };
+		7769133BDA684E1B81F2A738 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "rpsconf/Resources/icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* rpsconf */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* rpsconf.app */,
+				858B843318CA22B800AB12DE /* rpsconf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* rpsconf */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = rpsconf;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* rpsconf-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* rpsconf-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8914F87A7D724B2AA4BA5C62 /* Default-568h@2x.png */,
+				A8829FE300D74D79A0876ED2 /* Default-667h@2x.png */,
+				0CAA38DF8D694201AC3A942B /* Default-736h@3x.png */,
+				467C0088080442B982BF05DE /* Default-Landscape-568h@2x.png */,
+				2DB6263F260A445C952BF9F9 /* Default-Landscape-667h@2x.png */,
+				5363221AF30D453595AD9AD9 /* Default-Landscape.png */,
+				D2B23D4ADD364B098424F2F2 /* Default-Landscape@2x.png */,
+				2D18BE2747514DF7AC0CEE1B /* Default-Landscape@3x.png */,
+				E1A9F84BA2234083B3011C52 /* Default-Portrait.png */,
+				BD9C494BE21F4B0685B3CA93 /* Default-Portrait@2x.png */,
+				A26EA34C9C204C60BF651205 /* Default.png */,
+				1D0539F9496F436199E333F5 /* Default@2x.png */,
+				9930585F4E1047D6909DE119 /* Icon-Small-50.png */,
+				33CB929371E94B6D98F813CE /* Icon-Small-50@2x.png */,
+				CE32634AF04441789464025D /* Icon-Small.png */,
+				D84B492CD8894E9E9A9A80B0 /* Icon-Small@2x.png */,
+				1DCEEF094DD54131A335B244 /* build.xcconfig */,
+				24F6E19B169C42039AE2CD25 /* icon-40.png */,
+				55F342D6ADCA4FEDB5D91BE3 /* icon-40@2x.png */,
+				DFFC7697D77049C6A6F20B78 /* icon-60.png */,
+				4A8AED820C8345629B15EF44 /* icon-60@2x.png */,
+				FCAA1CC97E1E4F52ACF904A9 /* icon-72.png */,
+				CB89CA032D7E4113BA7C486F /* icon-72@2x.png */,
+				220358E74ED243BABABA4E0C /* icon-76.png */,
+				582D33A690484719ABA91FE1 /* icon-76@2x.png */,
+				849D5CD5E068427A9CAED994 /* icon.png */,
+				7769133BDA684E1B81F2A738 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* rpsconf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "rpsconf" */;
+			buildPhases = (
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rpsconf;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* rpsconf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "rpsconf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* rpsconf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				96567F4E03F84E27A9B5F044 /* Default-568h@2x.png in Resources */,
+				C340D890209547738C6C58AC /* Default-667h@2x.png in Resources */,
+				01A71D20B6B04C38AD43783D /* Default-736h@3x.png in Resources */,
+				38480C9389E64090864BC287 /* Default-Landscape-568h@2x.png in Resources */,
+				A09BAD82D139499B9E2BF5B1 /* Default-Landscape-667h@2x.png in Resources */,
+				B0742CB9685C417692CA102D /* Default-Landscape.png in Resources */,
+				127C4B9033BE4C348FA0A9A2 /* Default-Landscape@2x.png in Resources */,
+				5A1E48F8C9974911890C1412 /* Default-Landscape@3x.png in Resources */,
+				3C2F28785A9F49A0A449A442 /* Default-Portrait.png in Resources */,
+				A2E9F1743DDC4447AB0D6404 /* Default-Portrait@2x.png in Resources */,
+				0702540086E34CC1A8F769BC /* Default.png in Resources */,
+				A46A7F3665534F6891925AE5 /* Default@2x.png in Resources */,
+				14757BC82EF747D592707A8F /* Icon-Small-50.png in Resources */,
+				974F9D3D320847CD8FCC9DD3 /* Icon-Small-50@2x.png in Resources */,
+				148AFBCBB46F4A16B07319EF /* Icon-Small.png in Resources */,
+				CEA6960773BA48C4AD9D1CD4 /* Icon-Small@2x.png in Resources */,
+				4FB615850C0648C4B72A27C3 /* build.xcconfig in Resources */,
+				991751DEC681485DAFEA1663 /* icon-40.png in Resources */,
+				4EA88DD26B254DC3B1FD4C55 /* icon-40@2x.png in Resources */,
+				4516CC9435C840A9B05B78F2 /* icon-60.png in Resources */,
+				EEB334F5ABA84A15A425A3A5 /* icon-60@2x.png in Resources */,
+				F468682649F84F05AA450FF3 /* icon-72.png in Resources */,
+				4D81F77BDE2F41FE98335A72 /* icon-72@2x.png in Resources */,
+				B239A79E95034899BF01CFA0 /* icon-76.png in Resources */,
+				F706AE7A4B3345DDBCEA7051 /* icon-76@2x.png in Resources */,
+				E98150E849F3448F9FE1C182 /* icon.png in Resources */,
+				EFCA20311905441FADCE22D2 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B8C6A31ACEDEEB00547416 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rpsconf/rpsconf-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/rpsconf/rpsconf-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = rpsconf;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rpsconf/rpsconf-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/rpsconf/rpsconf-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = rpsconf;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "rpsconf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "rpsconf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}
